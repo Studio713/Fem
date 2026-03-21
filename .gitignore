@@ -1,0 +1,20 @@
+# Argon
+/sourcemap.json
+
+# Wally
+/Packages
+/ServerPackages
+/DevPackages
+
+# Pesde
+*_packages
+
+# Artifacts
+/*.lock
+/*.rbxl
+/*.rbxlx
+/*.rbxm
+/*.rbxmx
+
+# Misc
+.DS_Store

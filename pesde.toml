@@ -1,0 +1,33 @@
+name = "studio713/fem"
+version = "0.1.0"
+description = "A framework for plugins"
+authors = ["vermale713"]
+license = "MIT"
+
+includes = ["pesde.toml", "LICENSE", "src/**/*.luau", "README.md"]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
+
+[scripts]
+roblox_sync_config_generator = ".pesde/scripts/roblox_sync_config_generator.luau"
+sourcemap_generator = ".pesde/scripts/sourcemap_generator.luau"
+
+[dev_dependencies]
+scripts = { name = "pesde/scripts_argon", version = "^0.2.0", target = "lune" }
+argon = { name = "pesde/argon", version = "^2.0.28", target = "lune" }
+
+[engines]
+pesde = "^0.7.0"
+lune = "^0.10.2"
+
+[dependencies]
+Signal = { wally = "data-oriented-house/lemonsignal", version = "^1.11.0" }

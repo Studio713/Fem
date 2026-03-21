@@ -1,0 +1,6 @@
+[
+  {
+    "label": "sourcemap",
+    "command": "argon sourcemap -w -o sourcemap.json --non-scripts",
+  },
+]
