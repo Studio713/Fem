@@ -15,9 +15,6 @@ jobs:
       - name: Setup rokit
         uses: CompeyDev/setup-rokit@v0.1.2
 
-      - name: Install tools
-        run: rokit install
-
       - name: Install dependencies
         run: pesde install
 
@@ -41,9 +38,6 @@ jobs:
 
       - name: Setup rokit
         uses: CompeyDev/setup-rokit@v0.1.2
-
-      - name: Install tools
-        run: rokit install
 
       - name: Install dependencies
         run: pesde install
