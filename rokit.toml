@@ -5,3 +5,4 @@
 
 [tools]
 pesde = "pesde-pkg/pesde@0.7.3+registry.0.2.3"
+argon = "argon-rbx/argon@2.0.28"
