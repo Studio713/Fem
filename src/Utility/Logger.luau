@@ -10,14 +10,6 @@ local Levels = {
 	Fatal = 5,
 }
 
--- :: {
--- [string]: number,
--- Internal: number,
--- Info: number,
--- Warn: number,
--- Error: number,
--- Fatal: number,
--- }
 local Utility = {}
 
 local function shouldLog(level: keyof<typeof(Levels)>)
@@ -29,9 +21,6 @@ function Utility.SetConfig(opts: Config)
 	Config.Level = opts.Level or Config.Level
 end
 
---[=[
-@internal
-]=]
 function Utility.Internal(...)
 	if not shouldLog("Internal") then
 		return

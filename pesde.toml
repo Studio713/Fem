@@ -31,3 +31,4 @@ lune = "^0.10.2"
 
 [dependencies]
 Signal = { wally = "data-oriented-house/lemonsignal", version = "^1.11.0" }
+Promise = { wally = "howmanysmall/typed-promise", version = "^4.0.6" }
