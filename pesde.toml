@@ -1,5 +1,5 @@
 name = "studio713/fem"
-version = "0.2.0"
+version = "0.2.1"
 description = "A framework for plugins"
 authors = ["vermale713"]
 repository = "https://github.com/Studio713/Fem"
