@@ -1,9 +1,16 @@
 {
-  "name": "Fem",
   "tree": {
-    "$path": "src",
-    "Packages": {
-      "$path": "roblox_packages"
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "package": {
+        "$className": "Folder",
+        "src": {
+          "$path": "src"
+        },
+        "roblox_packages": {
+          "$path": "roblox_packages"
+        }
+      }
     }
   }
 }

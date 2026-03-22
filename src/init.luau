@@ -1,7 +1,7 @@
+local Signal = require(script.Parent.roblox_packages.Signal)
 local Ribbon = require(script.Core.Ribbon)
 local Widget = require(script.Core.Widget)
 local History = require(script.Helpers.History)
-local Signal = require(script.Packages.Signal)
 local Internals = require(script.Utility.Internals)
 local Logger = require(script.Utility.Logger)
 local Tracker = require(script.Utility.Tracker)
@@ -20,6 +20,9 @@ Framework.Ribbon = Ribbon
 Framework.Widget = Widget
 -- Exported Helpers
 Framework.History = History
+-- Exported Types
+export type Toolbar = Ribbon.Toolbar
+export type Button = Ribbon.Button
 
 Internals._tracker:TrackCustomObject(Framework.Unloading, "Destroy")
 
