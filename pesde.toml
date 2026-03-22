@@ -2,6 +2,7 @@ name = "studio713/fem"
 version = "0.1.1"
 description = "A framework for plugins"
 authors = ["vermale713"]
+repository = "https://github.com/Studio713/Fem"
 license = "MIT"
 
 includes = ["pesde.toml", "LICENSE", "src/**/*.luau", "README.md"]
@@ -28,6 +29,3 @@ argon = { name = "pesde/argon", version = "^2.0.28", target = "lune" }
 [engines]
 pesde = "^0.7.0"
 lune = "^0.10.2"
-
-[dependencies]
-Signal = { wally = "data-oriented-house/lemonsignal", version = "^1.11.0" }

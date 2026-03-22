@@ -9,9 +9,9 @@ local ConnectionHandlers = {
 		task.cancel(conn)
 	end,
 	table = function<T>(conn: { conn: T, method: string })
-		local connection = conn.conn
-		if (connection :: { [string]: () -> () })[conn.method] then
-			(connection :: { [string]: () -> () })[conn.method]()
+		local connection = conn.conn :: { [string]: (T) -> () }
+		if connection[conn.method] then
+			connection[conn.method](connection)
 		end
 	end,
 }

@@ -23,6 +23,9 @@
               "requireStyle": "alwaysAbsolute",
               "separateGroupsWithLine": true,
               "ignoreGlobs": ["**/_Index/**", "**/.pesde/**"],
+              "stringRequires": {
+                "enabled": true,
+              },
             },
           },
         },
